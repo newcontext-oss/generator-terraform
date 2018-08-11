@@ -1,0 +1,4 @@
+.kitchen
+.terraform
+node_modules
+terraform.tfstate.d

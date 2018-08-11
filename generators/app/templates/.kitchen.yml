@@ -1,0 +1,22 @@
+---
+driver:
+  name: terraform
+  root_module_directory: test/fixtures/default
+
+provisioner:
+  name: terraform
+
+platforms:
+  - name: test
+
+transport:
+  name: ssh
+
+verifier:
+  name: terraform
+  format: documentation
+  groups:
+    - name: default
+
+suites:
+  - name: default

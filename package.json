@@ -1,0 +1,8 @@
+{
+  "name": "generator-terraform",
+  "version": "0.1.0",
+  "description": "Generate a terraform module with tests",
+  "dependencies": {
+    "yeoman-generator": "^3.0.0"
+  }
+}
